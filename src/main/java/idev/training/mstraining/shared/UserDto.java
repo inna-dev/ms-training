@@ -1,4 +1,4 @@
-package idev.training.mstraining.web.shared;
+package idev.training.mstraining.shared;
 
 import java.io.Serializable;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package idev.training.mstraining.web.data;
+package idev.training.mstraining.data;
 
 import java.io.Serializable;
 import javax.persistence.*;

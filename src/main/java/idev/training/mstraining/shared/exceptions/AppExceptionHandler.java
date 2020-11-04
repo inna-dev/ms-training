@@ -1,4 +1,4 @@
-package idev.training.mstraining.web.exceptions;
+package idev.training.mstraining.shared.exceptions;
 
 import java.util.Date;
 import org.springframework.http.HttpHeaders;

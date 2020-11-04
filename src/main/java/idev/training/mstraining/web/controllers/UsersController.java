@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import idev.training.mstraining.web.model.UserRequestModel;
 import idev.training.mstraining.web.model.UserResponseModel;
 import idev.training.mstraining.web.service.UsersService;
-import idev.training.mstraining.web.shared.UserDto;
+import idev.training.mstraining.shared.UserDto;
 
 @RestController
 @RequestMapping("/users")

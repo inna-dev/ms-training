@@ -1,7 +1,10 @@
 package idev.training.mstraining.web.service;
 
-import idev.training.mstraining.web.shared.UserDto;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import idev.training.mstraining.shared.UserDto;
 
-public interface UsersService {
+public interface UsersService extends UserDetailsService {
     UserDto createUser(UserDto userDetails);
+
+    UserDto getUserByEmail(String email);
 }
